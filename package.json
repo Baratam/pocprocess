@@ -1,0 +1,15 @@
+{
+  "name": "corpapp-module-helloworld",
+  "version": "0.0.1",
+  "description": "Example module for corpapp framework",
+  "author": "Willem Veelenturf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghiata/corpapp-module-helloworld.git"
+  },
+  "homepage": "https://github.com/ghiata/corpapp-module-helloworld",
+  "dependencies": {
+    "grunt": "0.4.1",
+    "packer-module": "~0.0.5"
+  }
+}

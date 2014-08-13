@@ -1,4 +1,9 @@
-pocprocess
-==========
+capapp-peoplefinder
+=========================
+This module contains generic functionality to find people in a corperate derectory and show their details.
 
-creating a proof of concept process 
+Configuration
+-------------
+peoplefinder : {
+	url : http://localhost:8080/people
+}
