@@ -10,6 +10,8 @@
   "homepage": "https://github.com/ghiata/corpapp-module-helloworld",
   "dependencies": {
     "grunt": "0.4.1",
-    "packer-module": "~0.0.5"
+    "packer-module": "~0.0.5",
+    "packer-unit": "~0.0.3",
+    "packer-e2e": "~0.0.4"
   }
 }
