@@ -28,6 +28,7 @@ describe("PocProcess", function () {
 
     element(by.partialButtonText('Volgende')).click();
 	 
+	expect(element(by.id('rkngnumber')).getText()).toBe(rknnumbertext);
 	 
 	 
 	 
