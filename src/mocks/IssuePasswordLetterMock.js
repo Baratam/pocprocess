@@ -56,8 +56,10 @@ angular.module('dialog.process.issuepasswordletter.mock', [
 						 },
 						 {
 							 name: "Venus Williams"
+						 },
+						 {
+							 name: "Aresh"
 						 }
-						
 				 	],
 		   rolePersClctr : [
 								 {
