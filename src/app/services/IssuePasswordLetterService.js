@@ -5,7 +5,7 @@ angular.module('dialog.process.issuepasswordletter')
 	var theFormData = "";
 
 	this.rekeningNumberData = function(){
-		return $http.get('/data');
+		return $http.get('/data'); 
 	};
 	
 	this.adreseData = function(){

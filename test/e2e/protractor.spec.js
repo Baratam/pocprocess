@@ -3,7 +3,7 @@ describe("PocProcess", function () {
 	
     describe ("PocPrcs1", function () {
         it("select drop down", function () {
-		ptor.get('http://localhost:3000'); 
+		ptor.get('http://localhost:3000/#/issuepasswordletter/'); 
 		//expect(element);
 		
 	//click on the menu button
@@ -13,9 +13,27 @@ describe("PocProcess", function () {
 		//fill in a name and click on Search
 	//element(by.input('searchText')).sendKeys('Soeradj');
 	//element(by.css('.btn.btn-lg.btn-default')).click();
-	var text = "123456789";
-		element(by.model('inputRkngNum')).element(by.xpath("//option[text()='"+text+"']")).click();
-		
+	var rknnumbertext = "123456789";
+	var adresetext = "Vries";
+	var perscltrtext = "Venus Williams";
+	var rlsperscltrtext = "Lander Veldan";
+    var datetext = "07/12/2013";
+	var buttontext = "Volgende";
+
+	element(by.model('form.selectRknm')).element(by.xpath("//option[text()='"+rknnumbertext+"']")).click();
+	element(by.model('form.selectAdrese')).element(by.xpath("//option[text()='"+adresetext+"']")).click();
+	//element(by.model('form.selectPersClctr')).element(by.xpath("//option[text()='"+perscltrtext+"']")).click();
+	element(by.model('form.selectRolePersClctr')).element(by.xpath("//option[text()='"+rlsperscltrtext+"']")).click();
+	element(by.model('form.selectDspPswdLetter')).sendKeys(datetext);
+
+    element(by.partialButtonText('Volgende')).click();
+	 
+	 
+	 
+	 
+
 	});	
+
+	waits(5000);
  });
 });
